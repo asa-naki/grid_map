@@ -1,4 +1,4 @@
-grid_map_visualization:
+grid_map_interpolation_demo:
   ros__parameters:
     world: Sine # options are: Sine, Poly, Gauss, Tanh
     

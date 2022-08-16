@@ -251,8 +251,8 @@ InterpolationDemo::InterpolationDemo()
   this->get_parameter("interpolation_type", interpolationMethod_);
   this->get_parameter("world", world_);
   this->get_parameter("groundtruth_resolution", groundTruthResolution_);
-  this->get_parameter("interpolation/data_resolution", dataResolution_);
-  this->get_parameter("interpolation/interpolated_resolution", interpolatedResolution_);
+  this->get_parameter("interpolation.data_resolution", dataResolution_);
+  this->get_parameter("interpolation.interpolated_resolution", interpolatedResolution_);
   this->get_parameter("world_size.length", worldLength_);
   this->get_parameter("world_size.width", worldWidth_);
 
